@@ -18,7 +18,7 @@ It consists the following packages
 
 The following image gives a high level overview of the design and how every package interacts with one another:
 
-![REEF Est Architecture](docs/REEF_Architecture.jpg)
+![REEF Est Architecture](docs/REEF Architecture.png)
 
 ## How do I get started? 
 We have tested this bundle on multiple aerial platforms (quads and hexrotors) which had ROSFlight as their Flight Control Unit (FCU). The following instructions apply 
@@ -29,13 +29,13 @@ building a quadrotor platform to flying using an XBox Controller or flying figur
 2) Clone and install the REEF_Estimator bundle:
 
     ```html
-    mkdir -p catkin_ws/src
-    git clone https://bitbucket.org/reefavl/reef_estimator_bundle.git
+    mkdir -p estimator_ws/src
+    git clone https://github.com/uf-reef-avl/reef_estimator_bundle.git
     cd REEF_estimator_bundle
     git submodule update --init --recursive
     cd .. && catkin_make
     ```
-    **NOTE**: If you have cloned the ROSFlight repo and the REEF Estimator bundle in catkin_ws/src, the compiler will throw an error when building. Delete the original ROSFlight package you built (not the one inside the bundle. This will save a tonne of time when pull new changes to the REEF Estimator code).
+    **NOTE**: If you have cloned the ROSFlight repo and the REEF Estimator bundle in estimator_ws/src, the compiler will throw an error when building. Delete the original ROSFlight package you built (not the one inside the bundle. This will save a tonne of time when pull new changes to the REEF Estimator code).
             
 3) If you do have motion capture it is very important to perform a camera calibration. This involves both extrisic and intrisic calibration. Please 
 take a look at our [camera calibration](https://bitbucket.org/reefavl/camear_calibration_bundle/src) package to do this. There is extensive documentation available in the [camera_mocap_calibration](https://bitbucket.org/reefavl/camera_mocap_calibration) package. 
