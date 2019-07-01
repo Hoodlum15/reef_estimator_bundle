@@ -1,0 +1,36 @@
+[submodule "astra_launch_driver"]
+	path = astra_launch_driver
+	url = ../astra_launch_driver.git
+[submodule "demo_rgbd"]
+	path = demo_rgbd
+	url = ../demo_rgbd
+[submodule "rgbd_to_velocity"]
+	path = rgbd_to_velocity
+	url = ../rgbd_to_velocity
+[submodule "dubins_path"]
+	path = dubins_path
+	url = ../dubins_path
+[submodule "position_to_velocity"]
+	path = position_to_velocity
+	url = ../position_to_velocity
+[submodule "reef_control"]
+	path = reef_control
+	url = ../reef_control
+[submodule "reef_estimator"]
+	path = reef_estimator
+	url = ../reef_estimator
+[submodule "reef_msgs"]
+	path = reef_msgs
+	url = ../reef_msgs
+[submodule "reef_teleop"]
+	path = reef_teleop
+	url = ../reef_teleop
+[submodule "ros_vrpn_client"]
+	path = ros_vrpn_client
+	url = ../ros_vrpn_client
+[submodule "rosflight"]
+	path = rosflight
+	url = https://github.com/rosflight/rosflight
+[submodule "astra_camera_driver"]
+	path = astra_camera_driver
+	url = ../astra_camera_driver
