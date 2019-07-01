@@ -31,9 +31,9 @@ building a quadrotor platform to flying using an XBox Controller or flying figur
     ```html
     mkdir -p estimator_ws/src
     git clone https://github.com/uf-reef-avl/reef_estimator_bundle.git
-    cd REEF_estimator_bundle
+    cd reef_estimator_bundle
     git submodule update --init --recursive
-    cd .. && catkin_make
+    cd ../.. && catkin_make
     ```
     **NOTE**: If you have cloned the ROSFlight repo and the REEF Estimator bundle in estimator_ws/src, the compiler will throw an error when building. Delete the original ROSFlight package you built (not the one inside the bundle. This will save a tonne of time when pull new changes to the REEF Estimator code).
             
