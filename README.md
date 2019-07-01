@@ -30,6 +30,7 @@ building a quadrotor platform to flying using an XBox Controller or flying figur
 
     ```html
     mkdir -p estimator_ws/src
+    cd estimator_ws/src
     git clone https://github.com/uf-reef-avl/reef_estimator_bundle.git
     cd REEF_estimator_bundle
     git submodule update --init --recursive
